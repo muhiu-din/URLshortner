@@ -36,8 +36,9 @@ const Page = () => {
   };
 
   return (
-    <div>
-      <div className='bg-purple-100 w-[40vw] mx-auto my-30 py-10 rounded-lg'>
+<main className='bg-purple-100 h-screen'>
+      <section  className='py-30'>
+      <div className=' bg-white w-[40vw] py-10 mx-auto  rounded-lg'>
         <div>
           <h1 className='text-2xl my-2 text-center font-bold'>Enter Your URL</h1>
         </div>
@@ -58,7 +59,7 @@ const Page = () => {
           />
           <button
             onClick={generate}
-            className='bg-purple-400 p-3 font-bold text-white py-1 rounded-lg'
+            className='bg-purple-400 hover:bg-purple-500 p-3 font-bold text-white py-1 rounded-lg'
           >
             Generate
           </button>
@@ -70,7 +71,8 @@ const Page = () => {
           </div>
         )}
       </div>
-    </div>
+    </section>
+</main>
   );
 };
 
